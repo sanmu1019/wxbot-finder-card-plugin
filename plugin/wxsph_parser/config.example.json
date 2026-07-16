@@ -1,0 +1,29 @@
+{
+  "enabled": true,
+  "allow_group": true,
+  "allow_private": true,
+  "auto_detect": false,
+  "send_summary": true,
+  "send_video": true,
+  "send_fallback_text": true,
+  "api_base": "http://127.0.0.1:8787",
+  "api_key": "change_me_to_wxsph_api_key",
+  "timeout": 18,
+  "max_retries": 2,
+  "video_max_size_mb": 300,
+  "triggers": [
+    "解析",
+    "解析链接",
+    "视频号解析"
+  ],
+  "try_compact_cdn": true,
+  "try_full_cdn": true,
+  "finder_bridge_enabled": true,
+  "finder_bridge_base": "http://127.0.0.1:8790",
+  "finder_bridge_api_key": "change_me_to_finder_gateway_key",
+  "finder_bridge_timeout": 30,
+  "finder_protocol_enabled": false,
+  "finder_protocol_base": "http://127.0.0.1:9000/api",
+  "finder_protocol_timeout": 15,
+  "finder_protocol_cgi": 3906
+}
